@@ -1,0 +1,38 @@
+{
+  "name": "apollo-mms",
+  "version": "1.0.0",
+  "description": "A medicine management system.",
+  "main": "index.js",
+  "dependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/sequelize": "^4.28.8",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "ts-node": "^8.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "node ./dist/main.js",
+    "dev": "tsnd --respawn ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBora/apollo-mms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GBora/apollo-mms/issues"
+  },
+  "homepage": "https://github.com/GBora/apollo-mms#readme"
+}
